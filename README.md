@@ -1,6 +1,8 @@
 # Memflow wrapper
 Simple C++ wrapper around [memflow.hpp](https://github.com/memflow/memflow/blob/main/memflow-ffi/memflow.hpp) using [memflow-ffi](https://github.com/memflow/memflow/tree/main/memflow-ffi), interface to the memflow API for C/C++. Both originate from [memflow](https://github.com/memflow/memflow) repository.
 
+Tested with Arch Linux as host, running QEMU/KVM with [Windows 10 20H1](https://archive.org/details/win-10-2004-english-x-64_202010) guest.
+
 # Installation
 ## Memflow-KVM DKMS
 ```bash
