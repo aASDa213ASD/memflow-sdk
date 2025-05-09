@@ -1,0 +1,6 @@
+# IDE Garbage
+.vscode/
+
+# Binaries
+Build/*
+!Build/execute.sh
