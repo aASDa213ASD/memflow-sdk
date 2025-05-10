@@ -12,9 +12,9 @@ Possible os values are `win32`, `native` or `linux`.
 Memflow::Memflow(const std::string& connector, const std::string& os)
 {
     mf_log_init(LevelFilter::LevelFilter_Off);
-
+    
     this->inventory = mf_inventory_scan();
-    if (!this->inventory) 
+    if (!this->inventory)
     {
         return;
     }
